@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NYU JigSaw Puzzle</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://www.jqueryui.com/resources/demos/style.css">
+
+
+<script> 
+$(document).ready(function(){
+
+	$(window).load(function(){
+	   $( ".button" ).animate({
+				 left: "-=300",
+				 top: "-=250"
+			},4500);
+	});  /* end window.load  */
+	
+	$(window).load(function(){
+	   $( ".pic2" ).animate({
+				 left: "-=110",
+				 top: "-=250"
+			},4500);
+	});  /* end window.load  */
+   $(window).load(function(){
+	   $( ".pic3" ).animate({
+				 left: "-=-62",
+				 top: "-=250"
+			},4500);
+	});  /* end window.load  */
+	 $(window).load(function(){
+	   $( ".pic4" ).animate({
+				 left: "-=-187",
+				 top: "-=250"
+			},4500);
+	});  /* end window.load  */
+	
+	$(window).load(function(){
+		$( ".pic5" ).animate({
+				 left: "-=-242",
+				 top: "-=250"
+			},4500);
+	});  /* end window.load  */
+	
+	$(window).load(function(){
+		$( ".pic6" ).animate({
+				 left: "-=300",
+				 top: "-=96.5"
+			},4500);
+	});  /* end window.load  */
+	
+	$(window).load(function(){
+	   $( ".pic8" ).animate({
+				 left: "-=-63",
+				 top: "-=62"
+			},4500);
+	});  /* end window.load  */
+   
+}); 
+</script> 
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#moveleft').click(function() {
+        $('#textbox').animate({
+        'marginLeft' : "-=15px" //moves left
+        });
+    });
+    $('#moveright').click(function() {
+        $('#textbox').animate({
+        'marginLeft' : "+=12px" //moves right
+        });
+    });
+    $('#movedown').click(function() {
+        $('#textbox').animate({
+        'marginTop' : "+=15px" //moves down
+        });
+    });
+    $('#moveup').click(function() {
+        $('#textbox').animate({
+        'marginTop' : "-=14px" //moves up
+        });
+    });
+});
+</script>
+  <script>
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+  </script>
+  <style>
+       .ui-menu { width: 150px; }
+  </style>
+
+
+</head>
+
+<body>
+<div align="center">
+  <h1>NYC Jigsaw Puzzle</h1>
+  <p align="right" margin-right=20px> <div style="padding:20px;"> <button id="moveleft">Left</button>  <button id="moveright">Right</button> <button id="movedown">Down</button> <button id="moveup">Up</button></div>
+</p>
+</div>
+ 
+<div class="button" STYLE="position:absolute; TOP:480px; LEFT:400px;" class="ui-widget-content">
+  <img src="images/new_york_city_jigsaw_01.png">	
+</div>
+
+<div class="pic2" STYLE="position:absolute; TOP:480px; LEFT:400px;" class="ui-widget-content">
+  <img src="images/new_york_city_jigsaw_02.png">	
+</div>
+
+<div class="pic3" STYLE="position:absolute; TOP:480px; LEFT:400px;" class="ui-widget-content">
+  <img src="images/new_york_city_jigsaw_03.png">	
+</div>
+
+<div class="pic4" STYLE="position:absolute; TOP:480px; LEFT:400px;" class="ui-widget-content">
+  <img src="images/new_york_city_jigsaw_04.png">	
+</div>
+
+<div class="pic5" STYLE="position:absolute; TOP:480px; LEFT:400px;" class="ui-widget-content">
+  <img src="images/new_york_city_jigsaw_05.png">	
+</div>
+
+<div class="pic6" STYLE="position:absolute; TOP:480px; LEFT:400px;" class="ui-widget-content">
+  <img src="images/new_york_city_jigsaw_06.png">	
+</div>
+
+<div class="pic8" STYLE="position:absolute; TOP:480px; LEFT:400px;" class="ui-widget-content">
+  <img src="images/new_york_city_jigsaw_08.png">	
+</div>
+
+<div id="textbox" STYLE="position:absolute; TOP:480px; LEFT:587px;">
+  <img src="images/new_york_city_jigsaw_07.png">	
+</div>
+
+<ul id="menu">
+    <li><a href="http://i6.cims.nyu.edu/~cbm389/jigsaw1.html" target="_blank">Jigsaw 1</a></li> 
+    <li><a href="http://i6.cims.nyu.edu/~cbm389/jigsaw2.html" target="_blank">Jigsaw 2</a></li>
+           
+  </ul>
+
+</body>
+</html>
