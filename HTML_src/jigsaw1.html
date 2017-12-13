@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NYU JigSaw Puzzle</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://www.jqueryui.com/resources/demos/style.css">
+  
+  <script>
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+  </script>
+  <style>
+       .ui-menu { width: 150px; }
+  </style>
+  
+  <script>
+  $( function() {
+    $( ".draggable" ).draggable();
+  } );
+  </script>
+</head>
+<body bgcolor=gray>
+<div align ="center">
+<h1>NYU JigSaw Puzzle</h1>
+</div>
+<ul id="menu">
+    <li><a href="http://i6.cims.nyu.edu/~cbm389/jigsaw1.html" target="_blank">Jigsaw 1</a></li> 
+    <li><a href="http://i6.cims.nyu.edu/~cbm389/jigsaw2.html" target="_blank">Jigsaw 2</a></li>
+           
+  </ul>
+ 
+
+
+<div class="draggable" STYLE="position:absolute; TOP:480px; LEFT:400px;" class="ui-widget-content">
+  <img src="images/NYU_puzzle_01.png">	
+</div>
+
+<div class="draggable" STYLE="position:absolute; TOP:280px; LEFT:400px;" class="ui-widget-content">
+  <img src="images/NYU_puzzle_02.png">	
+</div>
+
+<div class="draggable" STYLE="position:absolute; TOP:180px; LEFT:500px;" class="ui-widget-content">
+  <img src="images/NYU_puzzle_03.png">	
+</div>
+
+<div class="draggable" STYLE="position:absolute; TOP:480px; LEFT:200px;" class="ui-widget-content">
+  <img src="images/NYU_puzzle_04.png">	
+</div>
+<div class="draggable" STYLE="position:absolute; TOP:480px; LEFT:200px;" class="ui-widget-content">
+  <img src="images/NYU_puzzle_05.png">	
+</div>
+<div class="draggable" STYLE="position:absolute; TOP:480px; LEFT:200px;" class="ui-widget-content">
+  <img src="images/NYU_puzzle_06.png">	
+</div>
+<div class="draggable" STYLE="position:absolute; TOP:480px; LEFT:200px;" class="ui-widget-content">
+  <img src="images/NYU_puzzle_07.png">	
+</div>
+<div class="draggable" STYLE="position:absolute; TOP:480px; LEFT:200px;" class="ui-widget-content">
+  <img src="images/NYU_puzzle_08.png">	
+</div>
+
+<div align ="center">
+<div id="rectangle" style="width:600px; height:400px; background-color:pink"> </div>
+</div>
+</body>
+</html>
